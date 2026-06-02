@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    height: 100%;
+    width: 100%;
+    padding: 12px 14px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul li {
+    margin-left: 14px;
+}
+
+.navbar ul li a {
+    color: black;
+    font-family: sans-serif;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.circle-shadow {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.circle-shadow:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.user-icon span {
+    color: white;
+}
+
+.user-icon {
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.menu-icon {
+    height: 15px;
+    width: 15px;
+}
+
+.content-search {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Google-image {
+    width: 300px;
+    margin-top: 40px;
+}
+
+
+
+.search-bar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 0px;
+    left: 0px;
+}
+
+input {
+    width: 700px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #d3d3d3;
+    padding-left: 60px;
+    font-size: 15px;
+    box-shadow: 0px 2px 4px 2px rgba(201, 201, 201, 0.5);
+
+}
+
+input:hover {
+    box-shadow: 0 1px 3px 1px rgba(201, 201, 201, 0.5);
+}
+
+input:active {
+    border: 1px solid #d3d3d3;
+}
+
+#Glass {
+    position: relative;
+    top: 5px;
+    left: 45px;}
+
+.Icons{
+    height: 35px;
+    width: 35px;
+    position: relative;
+    right: 90px;
+    top: 10px;
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shortcut-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(14, 125, 177, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.shortcut {
+    position: relative;
+    top: 30px;
+    padding-top: 20px;
+    width: 120px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.shortcut:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.Add {
+    padding-top: 20px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
