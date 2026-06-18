@@ -98,7 +98,9 @@ body {
     top: 0px;
     left: 0px;
 }
-
+.Search-area:active{
+   
+}
 input {
     width: 700px;
     height: 50px;
@@ -107,9 +109,15 @@ input {
     padding-left: 60px;
     font-size: 15px;
     box-shadow: 0px 2px 4px 2px rgba(201, 201, 201, 0.5);
+    border: transparent;
+    outline: transparent;
 
 }
-
+input:focus {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #d3d3d3;
+}
 input:hover {
     box-shadow: 0 1px 3px 1px rgba(201, 201, 201, 0.5);
 }
@@ -117,12 +125,6 @@ input:hover {
 input:active {
     border: 1px solid #d3d3d3;
 }
-
-#Glass {
-    position: relative;
-    top: 5px;
-    left: 45px;}
-
 .Icons{
     height: 35px;
     width: 35px;
@@ -130,7 +132,16 @@ input:active {
     right: 90px;
     top: 10px;
     padding: 5px;
+    cursor: pointer;
 }
+#Glass {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    top: 11px;
+    left: 45px;}
+
+
 
 footer {
     display: flex;
@@ -164,6 +175,10 @@ footer {
 }
 
 .shortcut:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.shortcut:active {
     background-color: rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
